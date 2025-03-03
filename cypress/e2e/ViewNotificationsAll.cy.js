@@ -8,5 +8,7 @@ describe('Просмотр уведомлений', () => {
         cy.get(':nth-child(3) > .button').click();
 
         cy.get('[href="/notification"] > .header__label').click();
+
+        cy.get('.notification-title > .link').click()
     });
 });

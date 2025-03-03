@@ -4,7 +4,7 @@ describe('Регистрация', () => {
          cy.visit('https://dev.profteam.su/registration');
 
          cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium > .form-input--text').type(data.login);
-         cy.get('.form-input--email').type('testuser@example.com');
+         cy.get('.form-input--email').type('kkulmenev@gmail.com');
          cy.get(':nth-child(3) > .form-control--medium > .form-input--password').type('Password1');
          cy.get(':nth-child(4) > .form-control--medium > .form-input--password').type('Password1');
 
